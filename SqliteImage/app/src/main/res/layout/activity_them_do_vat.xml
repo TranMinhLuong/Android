@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemDoVatActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm đồ vật"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Tên đồ vật" />
+
+    <EditText
+        android:id="@+id/txtmota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Nhập mô tả" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btncam"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_camera_alt_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/imgava"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/btnfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_image_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnthem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy" />
+    </LinearLayout>
+</LinearLayout>

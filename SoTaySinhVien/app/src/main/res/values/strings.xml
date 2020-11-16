@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sổ Tay Sinh Viên</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="h_t_n"><![CDATA[Họ & Tên]]></string>
+    <string-array name="Date">
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+        <item>Chủ Nhật</item>
+    </string-array>
+</resources>

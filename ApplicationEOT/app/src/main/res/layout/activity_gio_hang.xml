@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    tools:context=".Activity.GioHangActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbargh"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#26C6DA"
+        android:theme="@style/customfontrobotoretheme"
+        app:title="Giỏ hàng">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/txtthongbao"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giỏ hàng bạn đang trống"
+                android:fontFamily="@font/robotoregular"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:background="#FFFFFF"
+                android:id="@+id/recyclergiohang"
+                android:theme="@style/customfontrobotoretheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_margin="5dp"
+                    android:textColor="#f20"
+                    android:text="Tổng tiền :"
+                    android:fontFamily="@font/robotoregular"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txttongtien"
+                    android:textColor="#f20"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/robotoregular"
+                    android:text="Giá trị"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:textColor="#26a14b"
+        android:textSize="20dp"
+        android:text="Thanh toán giỏ hàng"
+        android:fontFamily="@font/robotoregular"
+        android:id="@+id/btnthanhtoan"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <Button
+        android:textColor="#26a14b"
+        android:textSize="20dp"
+        android:text="Tiếp tục mua hàng"
+        android:fontFamily="@font/robotoregular"
+        android:id="@+id/btnmuatiepsp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+</LinearLayout>

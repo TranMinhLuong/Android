@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="customfontrobotolight" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:fontFamily">@font/robotolight</item>
+    </style>
+    <style name="customfontrobotoregular" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/robotoregular</item>
+    </style>
+    <style name="customfontrobotoretheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:fontFamily">@font/robotoregular</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>

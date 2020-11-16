@@ -1,0 +1,2 @@
+rootProject.name='LoginPost'
+include ':app'

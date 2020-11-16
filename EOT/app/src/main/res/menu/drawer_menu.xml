@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group>
+        <item
+            android:id="@+id/trangchu"
+            android:icon="@drawable/ic_home_black"
+            android:title="Trang chủ" />
+        <item android:id="@+id/caidat"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Cài đặt"  />
+        <item android:id="@+id/hinhanh"
+            android:icon="@drawable/ic_camera_alt_black"
+            android:title="Hình ảnh"  />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/thoat"
+            android:icon="@drawable/ic_assignment_return_black"
+            android:title="Thoát"/>
+    </group>
+
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trangchu"
+            android:title="Trang chủ" />
+        <item android:id="@+id/danhmuc"
+            android:title="Danh mục"  />
+        <item android:id="@+id/search"
+            android:title="Tìm kiếm"  />
+        <item android:id="@+id/dangnhap"
+            android:title="Đăng nhập"  />
+    </group>
+
+    <group android:id="@+id/group_menu">
+        <item
+            android:id="@+id/logout"
+            android:title="Thoát"/>
+    </group>
+
+</menu>

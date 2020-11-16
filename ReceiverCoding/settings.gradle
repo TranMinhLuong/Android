@@ -1,0 +1,2 @@
+rootProject.name='ReceiverCoding'
+include ':app'

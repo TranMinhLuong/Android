@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtnguoibl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TenNguoi"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtngaybl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngay" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="true"
+                android:max="5"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:scaleX=".5"
+                android:scaleY=".5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="10dp"
+               />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtcomment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

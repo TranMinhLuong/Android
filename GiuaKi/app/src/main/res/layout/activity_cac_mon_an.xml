@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7B1FA2"
+    android:orientation="vertical"
+    tools:context=".CacMonAnActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarmonan"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#26C6DA"
+        app:title="--MÓN ĂN NGON--"
+        app:titleTextColor="#7B1FA2"></androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recymonan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
